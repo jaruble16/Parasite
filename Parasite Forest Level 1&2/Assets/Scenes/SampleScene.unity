@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogMode: 2
+  m_FogDensity: 0.003
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -653,6 +653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 86847994}
   - component: {fileID: 86847993}
+  - component: {fileID: 86847995}
   m_Layer: 8
   m_Name: VFX
   m_TagString: Untagged
@@ -691,6 +692,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86847995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86847992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ef4f1713f05f48a2278913dbf072c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grappleCam: {fileID: 1133057586}
+  ppProfile: {fileID: 11400000, guid: 11516a01a592dc8409d4a32240b878a8, type: 2}
 --- !u!1001 &94164553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6253,8 +6268,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287908785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1000, y: 738.34, z: 0}
+  m_LocalRotation: {x: 0.048247103, y: 0.8693146, z: 0.086619385, w: -0.4842122}
+  m_LocalPosition: {x: 1627.2535, y: 461.80765, z: 754.1658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1236007695}
@@ -6764,7 +6779,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416058129}
-  m_LocalRotation: {x: 0.0012184713, y: 0.25593105, z: -0.9666833, w: 0.004604931}
+  m_LocalRotation: {x: 0.0012181011, y: 0.25593093, z: -0.9666833, w: 0.004604931}
   m_LocalPosition: {x: 3.7579346, y: 1.8525696, z: -9.090881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

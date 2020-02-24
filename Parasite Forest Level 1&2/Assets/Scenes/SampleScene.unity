@@ -6268,8 +6268,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287908785}
-  m_LocalRotation: {x: 0.048247103, y: 0.8693146, z: 0.086619385, w: -0.4842122}
-  m_LocalPosition: {x: 1627.2535, y: 461.80765, z: 754.1658}
+  m_LocalRotation: {x: 0.061743077, y: 0.8396188, z: 0.097676136, w: -0.5307424}
+  m_LocalPosition: {x: 1728.3315, y: 452.66623, z: 780.24585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1236007695}
@@ -6779,7 +6779,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416058129}
-  m_LocalRotation: {x: 0.0012181011, y: 0.25593093, z: -0.9666833, w: 0.004604931}
+  m_LocalRotation: {x: 0.0012145486, y: 0.255931, z: -0.9666833, w: 0.004604931}
   m_LocalPosition: {x: 3.7579346, y: 1.8525696, z: -9.090881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9195,8 +9195,8 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 1
-  m_ShowCustomSorter: 1
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
@@ -11079,7 +11079,7 @@ Cloth:
   m_CollisionMassScale: 0
   m_UseContinuousCollision: 1
   m_UseVirtualParticles: 1
-  m_SolverFrequency: 140
+  m_SolverFrequency: 160
   m_SleepThreshold: 0.1
   m_Coefficients:
   - maxDistance: 0.2
@@ -14940,12 +14940,12 @@ LineRenderer:
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8c8701b896a8184e8974775b53a7fd7, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15020,7 +15020,7 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!135 &1766219986

@@ -22,6 +22,6 @@ public class ChromaticAberrationController : MonoBehaviour
             ca.intensity.value = Mathf.Lerp(ca.intensity.value, 1, .5f*Time.deltaTime);
 
         else
-            ca.intensity.value = 0;
+            ca.intensity.value = Mathf.Lerp(ca.intensity.value, 0, 1f * Time.deltaTime);
     }
 }

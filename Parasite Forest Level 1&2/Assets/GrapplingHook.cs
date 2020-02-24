@@ -53,7 +53,7 @@ public class GrapplingHook : MonoBehaviour
             if (Input.GetMouseButton(1))
                 ReturnHook();
 
-            if (distanceToHook < 2)
+            if (distanceToHook < 5)
             {
                 if (grounded == false)
                 {

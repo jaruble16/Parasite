@@ -19,7 +19,7 @@ public class ChromaticAberrationController : MonoBehaviour
     void Update()
     {
         if (grappleCam.GrappleCamActive == true)
-            ca.intensity.value = Mathf.Lerp(ca.intensity.value, 1, .5f*Time.deltaTime);
+            ca.intensity.value = Mathf.Lerp(ca.intensity.value, 0.75f, .5f*Time.deltaTime);
 
         else
             ca.intensity.value = Mathf.Lerp(ca.intensity.value, 0, 1f * Time.deltaTime);

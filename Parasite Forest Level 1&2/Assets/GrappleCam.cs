@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class GrappleCam : MonoBehaviour
 {

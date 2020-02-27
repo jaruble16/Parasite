@@ -22,7 +22,7 @@ public class GrapplingHook : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetMouseButton(0) && fired == false && grappleCam.GrappleCamActive == true)
+        if (Input.GetMouseButton(0) && fired == false)
             fired = true;
 
         if (fired)
@@ -53,7 +53,7 @@ public class GrapplingHook : MonoBehaviour
             if (Input.GetMouseButton(1))
                 ReturnHook();
 
-            if (distanceToHook < 2)
+            if (distanceToHook < 5)
             {
                 if (grounded == false)
                 {

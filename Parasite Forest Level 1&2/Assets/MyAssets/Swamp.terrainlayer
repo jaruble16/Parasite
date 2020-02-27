@@ -7,8 +7,8 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Swamp
-  m_DiffuseTexture: {fileID: 2800000, guid: 6544d172cff534d47baf788cc101d937, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 4ad6ab27622ea124f91f3c093a5426a5, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 7250006f747c13f4284bb2fa5d5b7a90, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 0dce3529ba734194f9b0dff27944113a, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 50, y: 50}
   m_TileOffset: {x: 0, y: 0}

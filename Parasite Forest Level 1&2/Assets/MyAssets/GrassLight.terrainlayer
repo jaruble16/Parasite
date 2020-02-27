@@ -7,8 +7,8 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GrassLight
-  m_DiffuseTexture: {fileID: 2800000, guid: f39f40aab41f5b7429bcc813e87f3b82, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: f2433e8d9aa4a07428ff6ec6ffbe60b0, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 88949993ca60e4543b659f8e096c1427, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 11b60e388bac175418b5aab8ae58af15, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 20, y: 20}
   m_TileOffset: {x: 0, y: 0}

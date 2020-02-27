@@ -9,8 +9,8 @@ public class WaterTrigger : MonoBehaviour
     {
         // Underwater Visual Settings
         RenderSettings.fog = false;
-        RenderSettings.fogColor = new Color(0.2f, 0.4f, 0.8f, 0.5f);
-        RenderSettings.fogDensity = 0.04f;
+        RenderSettings.fogColor = new Color(0.1650943f, 1.0f, 0.6805578f, 1.0f);
+        RenderSettings.fogDensity = 0.02f;
     }
 
     private void OnTriggerEnter(Collider other)

@@ -14,17 +14,17 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogMode: 2
+  m_FogDensity: 0.003
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientSkyColor: {r: 0.47932023, g: 0.15292618, b: 0.27467737, a: 1}
+  m_AmbientEquatorColor: {r: 0.047169805, g: 0, b: 0.0030713708, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 0ff3aa777f2ccae4dbada9366130d56b, type: 2}
   m_HaloStrength: 0.5
@@ -6486,8 +6486,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287908785}
-  m_LocalRotation: {x: -0.118287355, y: 0.8774103, z: 0.3718014, w: 0.279147}
-  m_LocalPosition: {x: -260.28784, y: 425.20087, z: 1152.2795}
+  m_LocalRotation: {x: 0.012350296, y: 0.91278946, z: 0.027678551, w: -0.40730426}
+  m_LocalPosition: {x: 1694.4062, y: 452.18475, z: 863.4226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1236007695}
@@ -7157,8 +7157,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540288207}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -681.8, y: -283.8, z: -856}
+  m_LocalRotation: {x: 0.0012061426, y: 0.25593105, z: -0.9666833, w: 0.004604931}
+  m_LocalPosition: {x: 3.7579346, y: 1.8525696, z: -9.090881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 264630090}
@@ -7297,7 +7297,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 70
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -7747,7 +7747,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618846954}
-  m_LocalRotation: {x: 0.0012098257, y: 0.25593102, z: -0.9666833, w: 0.004604931}
+  m_LocalRotation: {x: 0.0012061426, y: 0.25593105, z: -0.9666833, w: 0.004604931}
   m_LocalPosition: {x: 3.7579346, y: 1.8525696, z: -9.090881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

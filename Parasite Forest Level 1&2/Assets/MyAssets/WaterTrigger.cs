@@ -10,21 +10,22 @@ public class WaterTrigger : MonoBehaviour
         // Underwater Visual Settings
         RenderSettings.fog = false;
         RenderSettings.fogColor = new Color(0.1650943f, 1.0f, 0.6805578f, 1.0f);
-        RenderSettings.fogDensity = 0.02f;
+        RenderSettings.fogDensity = 0.02f;        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         RenderSettings.fog = true;
+
+        // change player actions
+        
     }
 
     private void OnTriggerExit(Collider other)
     {
         RenderSettings.fog = false;
+
+
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

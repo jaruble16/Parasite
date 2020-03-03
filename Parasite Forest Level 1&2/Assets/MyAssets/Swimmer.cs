@@ -5,12 +5,14 @@ using UnityEngine;
 public class Swimmer : MonoBehaviour
 {
     public CharacterControls cc;
+    public UnityStandardAssets.Characters.RollerBall.Ball Ball;
 
     // Start is called before the first frame update
     void Start()
     {
         // call script
         cc = gameObject.GetComponent<CharacterControls>();
+        Ball = gameObject.GetComponent<UnityStandardAssets.Characters.RollerBall.Ball>();
     }
 
     bool IsUnderwater()

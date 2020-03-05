@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WaterTrigger : MonoBehaviour
 {
+    public UnityStandardAssets.Vehicles.Ball.BallUserControl ballUserControl;
+
     // Start is called before the first frame update
     void Start()
     {

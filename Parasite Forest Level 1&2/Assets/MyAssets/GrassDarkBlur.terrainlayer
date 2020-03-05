@@ -7,8 +7,8 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GrassDarkBlur
-  m_DiffuseTexture: {fileID: 2800000, guid: b4e2978efc7405d48a4f27a1dc824292, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 31871ffca4db5d74da5bf0da1ae43c3a, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 32ce10bb8d187c3409e77248bff7f93c, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: f6e136ee486ad16439a156b809036928, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 30, y: 30}
   m_TileOffset: {x: 0, y: 0}

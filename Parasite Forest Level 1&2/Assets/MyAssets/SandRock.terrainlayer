@@ -7,8 +7,8 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SandRock
-  m_DiffuseTexture: {fileID: 2800000, guid: ba0aacbf720ed0c40a4da360c410f7b0, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: b0e2f1a7bfed15343bb0786d8a6add0c, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 0b19a9a7b6742144e8f45c2804026b83, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 01e0f3d537f3ed140bbf46ab678b2b33, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}

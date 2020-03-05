@@ -84,7 +84,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.68
+    value: 0.22
   color:
     overrideState: 0
     value: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
@@ -102,7 +102,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 5.04
+    value: 1.8
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
     value: 3
   toneCurveToeStrength:
     overrideState: 1
-    value: 0.335
+    value: 0.232
   toneCurveToeLength:
     overrideState: 1
     value: 0.376
@@ -177,7 +177,7 @@ MonoBehaviour:
     value: -180
   saturation:
     overrideState: 1
-    value: 22
+    value: 2
   brightness:
     overrideState: 1
     value: 12
@@ -188,35 +188,35 @@ MonoBehaviour:
     overrideState: 1
     value: 30
   mixerRedOutRedIn:
-    overrideState: 0
-    value: 100
+    overrideState: 1
+    value: 75
   mixerRedOutGreenIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 56
   mixerRedOutBlueIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -25
   mixerGreenOutRedIn:
-    overrideState: 0
+    overrideState: 1
     value: 0
   mixerGreenOutGreenIn:
-    overrideState: 0
-    value: 100
+    overrideState: 1
+    value: 90
   mixerGreenOutBlueIn:
-    overrideState: 0
+    overrideState: 1
     value: 0
   mixerBlueOutRedIn:
-    overrideState: 0
+    overrideState: 1
     value: 0
   mixerBlueOutGreenIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 35
   mixerBlueOutBlueIn:
-    overrideState: 0
-    value: 100
+    overrideState: 1
+    value: 88
   lift:
-    overrideState: 0
-    value: {x: 0.91399646, y: 0.9965796, z: 1, w: 0}
+    overrideState: 1
+    value: {x: 0.8428009, y: 1, z: 0.7473108, w: 0}
   gamma:
     overrideState: 0
     value: {x: 0.98867774, y: 1, z: 0.9965201, w: 0}
@@ -1441,7 +1441,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 3.62
+    value: 2.69
   threshold:
     overrideState: 1
     value: 0.85
@@ -1453,7 +1453,7 @@ MonoBehaviour:
     value: 65461.85
   diffusion:
     overrideState: 1
-    value: 7.05
+    value: 10
   anamorphicRatio:
     overrideState: 1
     value: 0.21

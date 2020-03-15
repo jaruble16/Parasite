@@ -13,7 +13,7 @@ namespace UnityStandardAssets.Vehicles.Ball
 
         private Transform cam; // A reference to the main camera in the scenes transform
         private Vector3 camForward; // The current forward direction of the camera
-        private bool jump; // whether the jump button is currently pressed
+        public static bool jump; // whether the jump button is currently pressed
 
 
         private void Awake()

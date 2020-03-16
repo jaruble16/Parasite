@@ -11,18 +11,21 @@ public class RespawnActivate : MonoBehaviour
     private void Start()
     {
         eggSpawnActive = false;
+        playerCharacter.tag = "Player";
     }
 
     public void Update()
     {
-        if (BallUserControl.jump == true)
+        if (Input.GetKey("r") == true)
         {
-
+            eggSpawnActive = true;
         }
 
         if (playerCharacter.tag == "Dead" && Input.anyKeyDown)
         {
-            playerCharacter.transform.position = spawnPosition.eggLocation;
+            playerCharacter.transform.position = spawnPosition.spawnLocation;
+            eggSpawnActive = false;
+            playerCharacter.tag = "Player";
         }
     } 
 }

@@ -12,15 +12,21 @@ public class SpawnPosition : MonoBehaviour
     private Vector3 defaultSpawn;
     Collider eggCollider;
 
+    // Place whatever the default spawn point should be here
     private void Start()
     {
         defaultSpawn = new Vector3(680f, 280f, 850f);
         eggCollider = GetComponent<Collider>();
     }
+
     private void Update()
     {
+
+        // Get the location of the assigned game object acting as the egg
         eggLocation = egg.transform.position;
 
+        // If the egg spawn is active, set the spawn location to the egg location, otherwise 
+        // set spawn location to default and move the egg to the egg holder
         if (respawnActivate.eggSpawnActive == true)
         {
             spawnLocation = eggLocation;
@@ -31,6 +37,8 @@ public class SpawnPosition : MonoBehaviour
             egg.transform.position = eggHolder.transform.position;
         }
 
+        // If the egg spawn is not active, disable collisions on the egg so it can be stored in the egg holder
+        // If it is active, re-enable collision
         if (respawnActivate.eggSpawnActive == false)
         {
             eggCollider.enabled = eggCollider.enabled = false;

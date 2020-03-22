@@ -9,6 +9,7 @@ public class ChromaticAberrationController : MonoBehaviour
     public PostProcessProfile ppProfile;
     private ChromaticAberration ca;
 
+    // Force the default chromatic abberation to 0
     void Start()
     {
         ppProfile.TryGetSettings(out ca);
@@ -16,6 +17,7 @@ public class ChromaticAberrationController : MonoBehaviour
         ca.intensity.value = 0;
     }
 
+    // When going first person, gradually change the level of chromatic abberation and reduce it if entering third person
     void Update()
     {
         if (grappleCam.GrappleCamActive == true)

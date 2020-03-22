@@ -6,17 +6,13 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class GrappleCam : MonoBehaviour
 {
-    // Start is called before the first frame update
     public bool GrappleCamActive = false;
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
     void Update()
     {
 
+        // When "space" is pressed, toggle whether or not the first person camera has higher priority than third person
+        // Transition effects are handled automatically by cinemachine
         if (GrappleCamActive == false && (Input.GetKeyDown(KeyCode.Space)))
         {
             gameObject.GetComponent<CinemachineVirtualCamera>().Priority = 11;
@@ -32,6 +28,7 @@ public class GrappleCam : MonoBehaviour
         }
     }
 
+    // During the camera transition, the rest of the game is frozen
     private IEnumerator pauseTime()
     {
         Time.timeScale = 0f;

@@ -1,19 +1,15 @@
 fileFormatVersion: 2
-guid: 47da193391825da48a03a6596a18b408
+guid: a20d2fb0b9d09564abdce8dd667d34a9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: //RootNode
-    100004: Sun
-    400000: Cylinder
-    400002: //RootNode
-    400004: Sun
+    100000: //RootNode
+    400000: //RootNode
     2100000: Material.001
-    2300000: Cylinder
-    3300000: Cylinder
-    4300000: Cylinder
-    10800000: Sun
+    2100002: Material.002
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Sphere.001
   externalObjects: {}
   materials:
     importMaterials: 1

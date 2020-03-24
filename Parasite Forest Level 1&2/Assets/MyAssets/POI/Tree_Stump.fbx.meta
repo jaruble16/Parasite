@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: bef8d24a2d15d524f97b7f1448e0fb0c
+guid: bf80e56ca5fc3694cb1097377fa915f4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
+    2100000: trunk
     2300000: //RootNode
     3300000: //RootNode
     4300000: Quad Sphere

@@ -7,7 +7,7 @@ using System.Collections;
 
 public class NavPatrol : MonoBehaviour
 {
-
+    public Vector3 Rotation;
     public List<Transform> destinationPoints = new List<Transform>();
     public Transform AggroTarget;
     private int index = 0;
@@ -73,7 +73,8 @@ public class NavPatrol : MonoBehaviour
     void Update()
     {
 
-
+        
+        
 
         // Choose the next destination point when the agent gets
         // close to the current one.

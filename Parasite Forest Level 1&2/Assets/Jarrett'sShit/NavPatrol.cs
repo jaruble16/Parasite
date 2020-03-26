@@ -65,8 +65,7 @@ public class NavPatrol : MonoBehaviour
         {
             index = 1;
         }
-        // index = index % destinationPoints.Count;
-        // Debug.Log("index =" + index);
+
     }
 
 
@@ -95,26 +94,6 @@ public class NavPatrol : MonoBehaviour
     }
 
 
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.tag == "Player")
-    //    {
-    //        hasAggro = true;
-    //        agent.speed = agent.speed;// * 2;
-    //        Debug.Log("Player Trigger");
-    //    }
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if(other.tag == "Player")
-    //    {
-    //        hasAggro = false;
-    //        agent.ResetPath();
-    //        GotoNextPoint();
-    //    }
-    //}
 
 
     public void Flee()

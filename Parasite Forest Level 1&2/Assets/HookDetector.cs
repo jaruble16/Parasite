@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HookDetector : MonoBehaviour
 {
-    public StatsParent Possession;
+    public PossessionCamera controller;
     public GameObject player;
     // When the hook collides with something, do something
     void OnTriggerEnter(Collider other)
@@ -18,7 +18,8 @@ public class HookDetector : MonoBehaviour
 
         if(other.tag == "Predator" || other.tag == "Prey")
         {
-
+            controller.target = other.gameObject;
+            controller.PossessedCamera();
         }
     }
 }

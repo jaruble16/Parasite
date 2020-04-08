@@ -19,6 +19,11 @@ public class GrapplingHook : MonoBehaviour
     private float currentDistance;
 
     public GrappleCam grappleCam;
+
+
+    //Jarrett Changes
+    public bool Possess;
+    public PossessionCamera PossessControls;
     
     private void Update()
     {
@@ -70,6 +75,12 @@ public class GrapplingHook : MonoBehaviour
                 StartCoroutine("Climb");
             }
         }
+        //Jarrett Note: If the hook hits a predator or prey animal we want to possess it, not move towards it
+        //if (hooked == true && fired == true && Possess == true)
+        //{
+        //    PossessControls.PossessedCamera();
+        //}
+
         // While the hook has not hit anything gravity is still enabled for the player
         else
         {

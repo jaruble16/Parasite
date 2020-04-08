@@ -11,6 +11,7 @@ public class SpawnPosition : MonoBehaviour
     public Vector3 spawnLocation;
     private Vector3 defaultSpawn;
     Collider eggCollider;
+    private GameObject eggCollideIdentify;
 
     // Place whatever the default spawn point should be here
     private void Start()
@@ -18,7 +19,12 @@ public class SpawnPosition : MonoBehaviour
         defaultSpawn = new Vector3(680f, 280f, 850f);
         eggCollider = GetComponent<Collider>();
     }
-
+    
+    // When egg collides with something, identify what it is
+    private void OnCollisionEnter(Collision collision)
+    {
+        eggCollideIdentify = collision.gameObject;
+    }
     private void Update()
     {
 
@@ -42,6 +48,7 @@ public class SpawnPosition : MonoBehaviour
         if (respawnActivate.eggSpawnActive == false)
         {
             eggCollider.enabled = eggCollider.enabled = false;
+
         }
 
         if (respawnActivate.eggSpawnActive == true)
@@ -49,6 +56,12 @@ public class SpawnPosition : MonoBehaviour
             eggCollider.enabled = eggCollider.enabled = true;
         }
 
+        // If the egg collides with something solid, stop its movement
+
+        if (eggCollideIdentify.tag == "Hookable")
+        {
+            egg.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
 
     }
 }

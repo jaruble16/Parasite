@@ -945,7 +945,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.47
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -953,7 +953,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.206
+    m_Strength: 0.242
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -967,7 +967,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2.02
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayColor: {r: 0.5377358, g: 0.40330186, b: 0.52489847, a: 0}
-  nightColor: {r: 0.14033021, g: 0, b: 0.1981132, a: 0.19607843}
+  nightColor: {r: 0.15902969, g: 0, b: 0.2264151, a: 0.19607843}
   duration: 120
   sun: {fileID: 170076734}
 --- !u!1 &184851060
@@ -11340,8 +11340,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287908785}
-  m_LocalRotation: {x: 0.012612309, y: 0.91756696, z: 0.029203128, w: -0.39630663}
-  m_LocalPosition: {x: 1690.7496, y: 454.62567, z: 864.03796}
+  m_LocalRotation: {x: 0.013610766, y: 0.8666451, z: 0.023679243, w: -0.4981771}
+  m_LocalPosition: {x: 1690.6248, y: 454.6366, z: 863.92053}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1236007695}
@@ -11955,6 +11955,7 @@ MonoBehaviour:
   spawnPosition: {fileID: 2471936228001895238}
   playerCharacter: {fileID: 1352292716}
   eggSpawnActive: 0
+  holdTime: 1.25
 --- !u!1 &408602501
 GameObject:
   m_ObjectHideFlags: 0
@@ -12059,7 +12060,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416058129}
-  m_LocalRotation: {x: 0.0012019663, y: 0.25593108, z: -0.9666833, w: 0.004604931}
+  m_LocalRotation: {x: 0.0012016146, y: 0.25593105, z: -0.9666833, w: 0.004604931}
   m_LocalPosition: {x: 3.7579346, y: 1.8525696, z: -9.090881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32812,6 +32813,7 @@ GameObject:
   - component: {fileID: 2471936228001895238}
   - component: {fileID: 2471936228001895239}
   - component: {fileID: 2471936228001895240}
+  - component: {fileID: 2471936228001895241}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Untagged
@@ -32865,6 +32867,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.0005
   m_Center: {x: -2.9103829e-11, y: 0.0000054629922, z: 4.968563e-18}
+--- !u!114 &2471936228001895241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471936228001895237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4547b6fa2e9239548805bb2233190a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sendTriggerMessage: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  skinWidth: 0.1
 --- !u!4 &2471936228002320229
 Transform:
   m_ObjectHideFlags: 0

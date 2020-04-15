@@ -13,6 +13,7 @@ public class CharacterControls : MonoBehaviour
     public bool canJump = true;
     public float jumpHeight = 2.0f;
     private bool grounded = false;
+    public bool isJumping = false;
 
 
 
@@ -28,7 +29,7 @@ public class CharacterControls : MonoBehaviour
         if (grounded)
         {
             // Calculate how fast we should be moving
-            Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            Vector3 targetVelocity = new Vector3(0, Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             targetVelocity = transform.TransformDirection(targetVelocity);
             targetVelocity *= speed;
 
@@ -44,6 +45,7 @@ public class CharacterControls : MonoBehaviour
             if (canJump && Input.GetButton("Jump"))
             {
                 GetComponent<Rigidbody>().velocity = new Vector3(velocity.x, CalculateJumpVerticalSpeed(), velocity.z);
+                isJumping = true;
             }
         }
 

@@ -19,17 +19,18 @@ public class CharacterControls : MonoBehaviour
 
     void Awake()
     {
-        GetComponent<Rigidbody>().freezeRotation = false;
+        GetComponent<Rigidbody>().freezeRotation = false ;
         GetComponent<Rigidbody>().useGravity = false;
     }
 
     void Update()
     {
+        transform.Rotate(0, Input.GetAxis("Rotate") * 60f * Time.deltaTime, 0);
 
         if (grounded)
         {
             // Calculate how fast we should be moving
-            Vector3 targetVelocity = new Vector3(0, Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             targetVelocity = transform.TransformDirection(targetVelocity);
             targetVelocity *= speed;
 

@@ -20,6 +20,8 @@ public class GrapplingHook : MonoBehaviour
 
     public GrappleCam grappleCam;
 
+    public AudioSource audioManager;
+
 
     //Jarrett Changes
     public bool Possess;
@@ -29,7 +31,11 @@ public class GrapplingHook : MonoBehaviour
     {
         // If not currently firing and left mouse is pressed, set to firing
         if (Input.GetMouseButton(0) && fired == false)
+        {
             fired = true;
+            audioManager.Play();
+        }
+            
 
         // Create a line between the origin point of the hook and where the hook is located
         if (fired)

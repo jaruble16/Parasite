@@ -35,8 +35,6 @@ public class StatsParent : MonoBehaviour
                         health -= HPDecay;
                     }
                 }
-            
-          
         }
 
         if(health <= 0)
@@ -60,5 +58,6 @@ public class StatsParent : MonoBehaviour
     public void Death()
     {
         Destroy(gameObject);
+       
     }
 }

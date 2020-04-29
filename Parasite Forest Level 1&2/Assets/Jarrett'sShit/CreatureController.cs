@@ -9,7 +9,7 @@ public class CreatureController : MonoBehaviour
 
     private Rigidbody rb;
 
-
+    public PossessionCamera controller;
 
     // Start is called before the first frame update
     void Start()
@@ -30,14 +30,9 @@ public class CreatureController : MonoBehaviour
 
         rb.AddForce(movement * speed);
 
-        if(Input.GetKeyDown(KeyCode.A))
+       if(Input.GetKeyDown(KeyCode.E))
         {
-
-        }
-
-        if(Input.GetKeyDown(KeyCode.D))
-        {
-
+            controller.UnPossessedCamera();
         }
     }
 }

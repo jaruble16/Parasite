@@ -38,4 +38,26 @@ public class PossessionCamera : MonoBehaviour
         target.GetComponent<Rigidbody>().isKinematic = false;
         target.GetComponent<Rigidbody>().useGravity = true;
     }
+
+
+    public void UnPossessedCamera()
+    {
+        Debug.Log("I AM RUNNING UNPOSSESSED CAMERA");
+
+        //Set active camera to Turtle camera
+        target.GetComponentInChildren<CinemachineVirtualCamera>().Priority = 0;
+
+
+        //Set Player Character to inactive (WORKING!)
+        GameObject.Find("GLBcore").SetActive(true);
+
+        //Turn off NavPatrol + and other AI features
+        target.GetComponent<NavPatrol>().enabled = true;
+        target.GetComponent<NavMeshAgent>().enabled = true;
+
+        //Turn on Player Controller for Turtle
+        target.GetComponent<CharacterControls>().enabled = false;
+        target.GetComponent<Rigidbody>().isKinematic = true;
+        target.GetComponent<Rigidbody>().useGravity = false;
+    }
 }

@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 306286115}
-  videoToPlay: {fileID: 32900000, guid: d636639e85e61f842b5c767b929ad73a, type: 3}
+  videoToPlay: {fileID: 32900000, guid: fc47d1cef3406554ab8425c269fa89f6, type: 3}
 --- !u!114 &306286115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,6 +748,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1768713593 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6632787547941462461, guid: 396ed8630f3c69243abd187547cc7464,
+    type: 3}
+  m_PrefabInstance: {fileID: 2069375677}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2069375677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -863,6 +875,16 @@ PrefabInstance:
     - target: {fileID: 3204522421528012470, guid: 396ed8630f3c69243abd187547cc7464,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391573287431347816, guid: 396ed8630f3c69243abd187547cc7464,
+        type: 3}
+      propertyPath: _containerButton
+      value: 
+      objectReference: {fileID: 1768713593}
+    - target: {fileID: 3204522422725226242, guid: 396ed8630f3c69243abd187547cc7464,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

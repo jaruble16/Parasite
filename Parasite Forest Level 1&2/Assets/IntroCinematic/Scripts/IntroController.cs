@@ -35,6 +35,6 @@ public class IntroController : MonoBehaviour
 
     public void SkipScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
